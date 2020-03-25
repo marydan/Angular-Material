@@ -1,0 +1,26 @@
+<h1> Welcome {{empobj.ename}} </h1>
+
+
+<input [(ngModel)]="empobj.ename">
+
+
+<mat-accordion>
+        <mat-expansion-panel>
+             <mat-expansion-panel-header>
+                <mat-panel-title>
+               Employee
+               </mat-panel-title>
+               <mat-panel-description>
+                  Recuritment Details 
+               </mat-panel-description>
+                </mat-expansion-panel-header>
+              <mat-form-field>
+                    <mat-label>Enter Employee id</mat-label>
+                    <input matInput>
+                     <mat-label>Enter Address</mat-label>
+                        <textarea></textarea>
+              </mat-form-field>
+
+
+         </mat-expansion-panel>
+</mat-accordion>
